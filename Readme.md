@@ -14,10 +14,10 @@ This is my submission for Ludum Dare #35 with the theme "Shapeshift".
 
 ## Tools used
 
-[Unity3D](http://unity3d.com) - Engine
-[ChipTone](http://sfbgames.com/chiptone) - Sound Effects
-[Bosca Ceoil](http://boscaceoil.net/) - Music
-[SketchUp](http://www.sketchup.com/) - 3D Models
+* [Unity3D](http://unity3d.com) - Engine
+* [ChipTone](http://sfbgames.com/chiptone) - Sound Effects
+* [Bosca Ceoil](http://boscaceoil.net/) - Music
+* [SketchUp](http://www.sketchup.com/) - 3D Models
 
 ## Assets used
 
