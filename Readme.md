@@ -21,8 +21,10 @@ This is my submission for Ludum Dare #35 with the theme "Shapeshift".
 
 ## Assets used
 
-[Kenney Voxel Pack](http://kenney.nl/assets/voxel-pack) - Textures
+* [Kenney Voxel Pack](http://kenney.nl/assets/voxel-pack) - Textures
+* [KenneyPixel High](http://kenney.nl/assets/kenney-fonts) - Font
+* [Proggy Square](http://www.proggyfonts.net/download/) - Font
 
 ## License
 
-[Apache Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
+* [Apache Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
