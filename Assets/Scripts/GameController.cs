@@ -14,6 +14,9 @@ public class GameController : Singleton<GameController>
     public AudioClip RestartClip;
     public AudioSource LoopSource;
 
+    public Text InstructionText;
+    public Text RestartText;
+
     public float TitleFadeOutTime = 5f;
     public float InstructionsFadeOutTime = 10f;
     public float GameOverFlashSpeed = 0.5f;
@@ -24,6 +27,11 @@ public class GameController : Singleton<GameController>
     public void Start()
     {
         TimeScale = 1f;
+
+#if UNITY_ANDROID
+        InstructionText.text = InstructionText.text.Replace("Click", "Tap");
+        RestartText.text = RestartText.text.Replace("Click", "Tap");
+#endif
     }
 
     public void Update()

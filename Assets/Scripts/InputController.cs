@@ -10,6 +10,11 @@ public class InputController : MonoBehaviour
 
     public void Start()
     {
+#if UNITY_ANDROID
+        float ratio = Screen.height / 480f;
+        Screen.SetResolution((int) (Screen.width / ratio), (int) (Screen.height / ratio), true);
+#endif
+
         minDistance = Player.localScale.x;
         maxDistance = 8f;
         targetArea = Player.localScale.x * Player.localScale.y;

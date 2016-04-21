@@ -914,6 +914,8 @@ MonoBehaviour:
   GameOverClip: {fileID: 8300000, guid: d3efd921cdd9b4d4ebbcfd4e7808b6df, type: 3}
   RestartClip: {fileID: 8300000, guid: efa7ec05fe13d8748b0510bd3c937e2d, type: 3}
   LoopSource: {fileID: 480745009}
+  InstructionText: {fileID: 320632312}
+  RestartText: {fileID: 1055124751}
   TitleFadeOutTime: 5
   InstructionsFadeOutTime: 10
   GameOverFlashSpeed: 0.5
